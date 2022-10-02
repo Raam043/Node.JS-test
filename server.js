@@ -34,9 +34,7 @@ async function randomId() {
 }
 
 app.get("/test", (req, res) => {
-  res.send("<h1>It's working 🤗 
-           
-           -Ramesh NB</h1>")
+  res.send("<h1>It's working 🤗</h1> <h2> -RAMESH NB</h2>")
 })
 
 app.get("/", async (req, res) => {
